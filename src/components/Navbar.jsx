@@ -10,7 +10,7 @@ class NavBar extends React.Component {
                     <img src="/Q.png" id="logo1" class="d-inline-block"  alt=""></img>
                 </Link>
                 <Link class="navbar-brand" to="/about">
-                <span id='headerStyles2'>about dev</span>
+                <span id='headerStyles2'>about</span>
                 </Link>
                 </nav>
         )
