@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from './components/Navbar';
 import './About.css';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
@@ -9,6 +10,7 @@ function About() {
   const classes = useClasses()
     return ( 
       <div id="container" class="bg-gradient-to-r from-purple-700 to-[#a65fec] px-4 sm:px-6 lg:px-16">
+          <Navbar />
           <h1 id="header">Hello, I'm Suganth!</h1>
           <h1 id="header2">React dev | Wannabe full-stack dev | Python programmer</h1>
     <div id="icons">
