@@ -12,7 +12,7 @@ const Note=({id, text, date, handleDeleteNote})=>
             </span>
             <div v className="note-footer">
                 <small id="date">
-                    {new Date().toLocaleString() + ""}
+                    {date}
                 </small>
                 <IconButton disableElevation disableRipple onClick={()=>handleDeleteNote(id)}>
                     <DeleteIcon id="delete"/>

@@ -121,6 +121,9 @@ textarea::placeholder{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:10px;
 }
 .container
 {
@@ -137,9 +140,7 @@ textarea::placeholder{
     font-Weight: bold;
     color: #6d28d9;
     font-size: 50px;
-    padding-top: 1vw;
-    padding-bottom: 15px;
-    margin-left: 6px;
+
     text-decoration: none;
 }
 #dark
@@ -192,12 +193,9 @@ input::placeholder{
   {
     .search
     {
-        margin-left: 2vw;
-        margin-right: 2vw;
-    }
-    #logo
-    {
-        padding-bottom: 85px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 25px;
     }
     
 }

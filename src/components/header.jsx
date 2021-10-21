@@ -8,14 +8,12 @@ const Header=({handleToggleDarkMode})=>
     return(
         <div className="header">
             <Link id="logo" to="/">Qwigo</Link>
-            <div>
             <IconButton>
                 <Brightness4RoundedIcon
                 onClick={()=>
                 handleToggleDarkMode((previousDarkMode)=>!previousDarkMode)}
                 id="dark"/>
             </IconButton>
-            </div>
             </div>
     )
 }
