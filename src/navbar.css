@@ -1,6 +1,10 @@
 @font-face {
     font-family: "Gilroy";
-    src: url('./Gilroy-Regular.ttf');
+    src: 
+    url('./Gilroy-Regular?#iefix') format('embedded-opentype'), 
+    url('./Gilroy-Regular.woff') format('woff'), 
+    url('./Gilroy-Regular.ttf') format('truetype'),
+    url('./Gilroy-Regular.svg#svgFontName') format('svg');
 }
 
 #headerStyles
