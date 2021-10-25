@@ -1,1 +1,1 @@
-Qwigo - Quick notes on the go!
+**Qwigo - Quick notes on the go!**
